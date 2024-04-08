@@ -28,7 +28,7 @@ function CountryDetailsPage() {
   // Helper function to format the area
   const formatArea = area => {
     return `${new Intl.NumberFormat().format(area)} km²`;
-  };
+  }; // meh
 
   return (
     <div className="container">
