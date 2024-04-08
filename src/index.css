@@ -1,0 +1,6 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* This ensures padding and borders are included in the total width and height */
+  }
+  

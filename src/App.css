@@ -2,3 +2,20 @@
   margin: 0 auto;
   text-align: center;
 }
+
+.App {
+  overflow: auto; /* Only show a scrollbar if needed */
+  min-height: 100vh; /* Or a specific min-height that fits your design */
+  /* ... other styles ... */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* This ensures padding and borders are included in the total width and height */
+}
+
+body {
+  margin: 0;
+  /* Other styles */
+}
